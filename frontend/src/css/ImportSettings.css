@@ -1,0 +1,39 @@
+.import-settings {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 40%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    margin-left: 50px;
+    color: black;
+  }
+  
+  .import-settings h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .import-settings label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .import-settings select,
+  .import-settings input {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .import-button {
+    background-color: #b38b3c;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  

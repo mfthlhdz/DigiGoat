@@ -1,0 +1,53 @@
+/* src/css/StatCard.css */
+.stat-card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .gauge-card,
+  .goat-count-card {
+    background-color: #5a4733;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .gauge-card h3{
+    font-size: 24px;
+    margin: 10px 0 0;
+  }
+  .goat-count-card h3 {
+    font-size: 24px;
+    margin: 10px 0 0;
+    margin-top: 25px;
+  }
+  
+  .gauge-card p{
+    font-size: 16px;
+  }
+
+  .goat-count-card p {
+    font-size: 40px;
+    margin-top: 5px;
+  }
+  
+  .goat-icon {
+    width: 60px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+  }
+  
+  .goat-count {
+    font-size: 32px;
+    margin-top: -10px;
+  }
+  

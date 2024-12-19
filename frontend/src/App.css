@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./fonts/Satoshi-Variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./fonts/Satoshi-VariableItalic.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+body {
+  font-family: 'Satoshi', sans-serif;
+  color: #e0e0e0;
+}
+
+*, *::before, *::after {
+    font-family: inherit;
+}
+
+.scrollable {
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.scrollable::-webkit-scrollbar {
+  width: 0;
+}
+
+.scrollable {
+  scrollbar-width: none;
+}

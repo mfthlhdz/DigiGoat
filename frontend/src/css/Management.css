@@ -1,0 +1,85 @@
+.management-section {
+    background-image: url('../assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+    z-index: 2;
+}
+
+.feature {
+    background-color: rgba(151, 107, 14, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    height: 450px;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.feature h3 {
+    margin-bottom: 20px;
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 25px;
+    
+}
+
+.management-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    color: #333;
+    width: 200px;
+    text-align: center;
+}
+
+.icon img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.management-section h2 {
+    font-size: 40px;
+    text-align: justify;
+    margin-left: 200px;
+    position: relative;
+    z-index: 2;
+}

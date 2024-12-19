@@ -1,0 +1,90 @@
+.footer {
+    background-color: #322405;
+    color: #fff;
+    padding: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    min-width: 180px;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.logo-image {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.contact-info h4,
+.app-download h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-info p,
+.footer-section a {
+    font-size: 17px;
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #D4A017;
+}
+
+.app-download{
+    text-align: right;
+}
+
+.app-download img {
+    width: 200px;
+    margin-top: 10px;
+}
+
+.footer-links {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-links a {
+    margin-right: 30px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    margin-left: 1350px;
+    margin-right: 10px;
+  }
+  
+  .social-icon {
+    width: 24px;
+    height: 24px; 
+    transition: transform 0.3s;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.1);
+  }

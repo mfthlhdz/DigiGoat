@@ -1,0 +1,97 @@
+/* src/css/FormTambahCatatan.css */
+
+.form-tambah-catatan-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 100px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.form-tambah-catatan-container h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-tambah-catatan-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-tambah-catatan-group {
+  display: flex;
+  flex-wrap: wrap; /* Memungkinkan elemen label dan input untuk pindah ke baris berikutnya jika dibutuhkan */
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px; /* Menambahkan spasi antara label dan input */
+}
+
+.form-tambah-catatan-label {
+  font-size: 14px;
+  color: #333;
+  flex-basis: 30%; /* Menentukan lebar label */
+  text-align: left;
+  min-width: 120px; /* Memberikan lebar minimum pada label */
+}
+
+.form-tambah-catatan-input,
+.form-tambah-catatan-select {
+  flex-grow: 1; /* Membuat input mengisi ruang yang tersedia */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 14px;
+  min-width: 150px; /* Menambahkan lebar minimum untuk input */
+}
+
+.form-tambah-catatan-input:focus,
+.form-tambah-catatan-select:focus {
+  outline: none;
+  border-color: #333;
+}
+
+.form-tambah-catatan-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.form-tambah-catatan-button-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.form-tambah-catatan-button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-tambah-catatan-button[type="button"] {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.form-tambah-catatan-button[type="button"]:hover {
+  background-color: #f0f0f0;
+}
+
+.form-tambah-catatan-button[type="submit"] {
+  background-color: #8B5E3C;
+  color: #fff;
+  border: none;
+}
+
+.form-tambah-catatan-button[type="submit"]:hover {
+  background-color: #744a32;
+}

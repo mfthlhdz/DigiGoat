@@ -1,0 +1,40 @@
+/* src/css/ArticleDetail.css */
+.article-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 100px;
+  }
+  
+  .article-detail-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .article-detail-content {
+    margin-top: 20px;
+  }
+  
+  .article-detail-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .article-detail-date {
+    font-size: 1rem;
+    color: #777;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .article-detail-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  

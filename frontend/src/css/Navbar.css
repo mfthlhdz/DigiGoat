@@ -1,0 +1,243 @@
+/* src/css/Navbar.css */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 70px;
+    height: auto;
+}
+
+.navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 10px; /* Menambahkan jarak antara logo dan judul */
+}
+
+.navbar-links {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    margin-right: 40px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-links a.active-link {
+    background-color: #a67c00; /* Warna untuk halaman aktif */
+    color: #fff;
+}
+
+.navbar-links a:hover {
+    background-color: #f1f1f1; /* Hover effect untuk link */
+}
+
+.login-button {
+    background-color: #ffffff;
+    color: #000;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: rgba(151, 107, 14, 0.8);
+}
+
+.main-content {
+    margin-top: 70px;
+}
+
+/* Menambahkan gaya untuk menu profil */
+.profile-container {
+    position: relative;
+}
+
+.profile-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: none;  /* Menghilangkan border pada avatar */
+    transition: transform 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.profile-avatar:hover {
+    transform: scale(1.1); /* Menambahkan efek zoom saat hover pada avatar */
+}
+
+/* Menyembunyikan menu dropdown secara default */
+.profile-menu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    padding: 10px;
+    z-index: 1000;
+    text-align: left;  /* Mengubah teks menjadi rata kiri */
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Menampilkan menu dropdown ketika aktif */
+.profile-menu.active {
+    display: block;
+    opacity: 1;
+}
+
+/* Gaya untuk header menu profil */
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.profile-avatar-left {
+    margin-right: 10px;  /* Menambahkan jarak antara avatar dan nama */
+}
+
+.profile-name {
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+}
+.profile-email {
+    font-size: 16px;
+    color: #000;
+}
+
+/* Gaya untuk item menu dropdown */
+.profile-menu-item {
+    display: block;
+    width: 100%;
+    background-color: #f9f9f9;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.profile-menu-item:hover {
+    background-color: #f1f1f1;
+}
+/* Modal styling */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1500;
+    color: #000;
+  }
+  
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #555;
+    cursor: pointer;
+  }
+  
+  .modal-close:hover {
+    color: #000;
+  }
+  
+  .modal label {
+    display: block;
+    margin: 15px 0 5px;
+    text-align: left;
+  }
+  
+  .modal input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .modal-button {
+    background: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal-button:hover {
+    background-color: #45a049;
+  }
+  
+  .menu-icon {
+    width: 30px; /* Ukuran ikon */
+    height: 30px; /* Ukuran ikon */
+    margin-right: 10px; /* Jarak antara ikon dan teks */
+    vertical-align: middle; /* Rata tengah vertikal */
+  }
+  
